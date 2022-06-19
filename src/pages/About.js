@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
-import profile_pic from "../assets/profile_pic.jpg";
+import Erika_Hooper from "../assets/Erika_Hooper.jpg";
 
 export default class About extends Component {
   render() {
@@ -11,17 +11,17 @@ export default class About extends Component {
           <div className="centered">
             <img
               className="profile_image"
-              src={profile_pic}
+              src={Erika_Hooper}
               alt="Profile Pic"
             ></img>
           </div>
         </div>
         <div className="split right">
           <div className="centered">
-            <div className="name_title">Your Name</div>
+            <div className="name_title">Erika Hooper</div>
             <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
+            I attend Liberty University in the information technology with data networking and security specialization degree program. I have completed classes in the following programing languages: C++, Java, and C#. 
+I enjoy being outdoors and I have a farm where I grow apples. I love all things outdoors when the sun is shining and curling up with a good book on rainy days.
             </div>
           </div>
         </div>
